@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:3000/api
+
+###Get all cigars
+GET{{baseUrl}}/cigars
+
+## Add new cigar
+POST {{baseUrl}}/cigars
+Content-Type:application/json
+
+<./test-data/new-cigar.json
